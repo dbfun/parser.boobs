@@ -1,16 +1,18 @@
 # Бубсопедия
 
-[Источник](http://www.boobpedia.com/)
+Скрипт парсинга с [Бубсопедии](http://www.boobpedia.com/).
 
-# Разные страницы для примеров
+# Найденные закономерности парсинга
 
-Фильмография http://www.boobpedia.com/boobs/Olivia_(porn_star)
-Фильмография 2 http://www.boobpedia.com/boobs/Fumie_Hosokawa
-Фотогаллерея http://www.boobpedia.com/boobs/Lisa_Sparks
+## Разные страницы для примеров
 
-# Загребание страниц
+* [Фильмография](http://www.boobpedia.com/boobs/Olivia_(porn_star))
+* [Фильмография 2](http://www.boobpedia.com/boobs/Fumie_Hosokawa)
+* [Фотогаллерея](http://www.boobpedia.com/boobs/Lisa_Sparks)
 
-Загуглил inurl:api site:boobpedia.com нашел [API](http://boobpedia.com/butler/api.php)
+## Загребание страниц
+
+Загуглил `inurl:api site:boobpedia.com` нашел [API](http://boobpedia.com/butler/api.php)
 
 ## 1. Список страниц с датами в JSON
 
@@ -20,7 +22,7 @@ http://boobpedia.com/butler/api.php?action=query&generator=allpages&gaplimit=500
 
 http://boobpedia.com/butler/api.php?action=parse&page=Jackie%20Parker&format=json
 
-# 3. Данные для парсинга
+## 3. Данные для парсинга
 
 [Получение вики-разметки](http://www.boobpedia.com/butler/index.php?title=Jackie%20Parker&redirect=no&action=edit)
 
